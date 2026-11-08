@@ -1,5 +1,8 @@
 # SQL-SYNTH: a tracker synthesiser inside SQL Server
 
+> **Read the full story:** For the full breakdown of how this project came to be and the initial metrics, check out the article on [Medium](https://medium.com/@trevor.dwyer/can-a-database-rave-making-sql-server-play-music-d3c2fcf89d16). Follow me there for future updates! You can also read it free on [my blog](https://sqlartist.github.io/posts/can-a-database-rave-making-sql-server-play-music/).
+
+
 The music is stored as data: instruments, 16-row patterns and a song order. SQL Server renders the audio itself, set-based. Python only fetches the bytes and plays them.
 
 ## Run it
